@@ -1,0 +1,11 @@
+@font-face{
+  src: url(../fonts/Dubai Font Web Font/DubaiW23-Bold.eot);
+  src: url(../fonts/Dubai Font Web Font/DubaiW23-Bold.ttf);
+  src: url(../fonts/Dubai Font Web Font/DubaiW23-Bold.woff);
+  src: url(../fonts/Dubai Font Web Font/DubaiW23-Bold.woff2);
+  font-family: Dubai
+}
+@font-face{
+  src: url(../fonts/thasadith/Thasadith-Regular.ttf);
+  font-family: Thasadith
+}

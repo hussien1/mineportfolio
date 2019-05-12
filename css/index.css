@@ -1,0 +1,287 @@
+        /*start glopal style*/
+    
+    * {
+        padding: 0;
+        margin: 0
+    }
+    
+    :focus {
+        outline: none !important;
+    }
+    /*******************/
+    /*start navbar style*/
+    
+    .navbar.scrolled {
+        background-color: #fff !important;
+        color: #000!important;
+        box-shadow: 0 4px 10px 0px rgba(0, 0, 0, .1);
+        transition: background-color 200ms ease;
+    }
+    
+    nav {
+        right: 0;
+        left: 0;
+        z-index: 5;
+        overflow: hidden;
+    }
+    
+    .navbar-brand {
+        color: #c40!important
+    }
+    
+    .navbar-brand::first-letter {
+        font-size: 50px;
+        color: #09c;
+        opacity: .8;
+    }
+    
+    .colored {
+        color: #000!important;
+    }
+    
+    .navbar-brand,
+    .nav-link {
+        color: #fff;
+        font-family: Dubai;
+        font-weight: bold;
+        letter-spacing: 3px;
+        transition: ease .5s
+    }
+    
+    .navbar-brand:hover,
+    nav .nav-link:hover {
+        transform: scale(1.25)!important;
+        color: #fff
+    }
+    
+    .navbar-toggler span {
+        color: #000;
+    }
+    /********************/
+    /*start home style*/
+    
+    .home {
+        background-image: url("../images/frontend.jpg");
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+    
+    .home-overlay {
+        background-color: rgba(255, 255, 255, .1);
+    }
+    
+    .home-cont-name {
+        -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+        background-color: rgba(0, 0, 0, .9);
+        top: 30%;
+        left: 0;
+        -webkit-transform: translate(0% -50%);
+        transform: translate(0% -50%);
+        width: 60%;
+        color: #fff;
+        font-weight: bold;
+        font-family: Dubai;
+        font-size: 25px;
+        letter-spacing: 4px
+    }
+    
+    .home-cont-position {
+        -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+        background-color: rgba(255, 255, 255, .7);
+        top: 55%;
+        right: 0;
+        -webkit-transform: translate(0% -50%);
+        transform: translate(0% -50%);
+        width: 60%;
+        color: #000;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 4px
+    }
+    /************************/
+    /*start about style*/
+    
+    .about {
+        background-color: #eee;
+    }
+    
+    .about-head,
+    .skills-head,
+    .portfolio-head {
+        font-family: Dubai;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+    
+    .about-head p,
+    .skills-head p,
+    .portfolio-head p {
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 10px;
+        color: rgba(255, 255, 255, .8);
+        webkit-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.16);
+    }
+    
+    .about-info {
+        font-family: Thasadith;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: #686868;
+        background-color: #fff;
+        border-radius: 10px;
+        webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.16);
+    }
+    /*******************/
+    /*start skills style*/
+    
+    .skills {
+        background-image: url(../images/skills.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .skills-overlay {
+        background-color: rgba(0, 0, 0, .7);
+        background-attachment: fixed;
+    }
+    
+    .progress-circle {
+        background-color: rgba(255, 0, 255, .5);
+        text-align: center;
+    }
+    
+    .skill>span {
+        color: #fff;
+        font-family: Thasadith;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /********************/
+    /*start portfolio style*/
+    
+    .portfollio .nav-link {
+        color: #000;
+    }
+    
+    .portfollio .nav-link:hover {
+        background-color: rgba(0, 150, 200, .1)
+    }
+    
+    .card a {
+        font-family: Thasadith;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: black;
+        transition: ease .5s;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    
+    .card a:hover {
+        color: rgba(0, 0, 0, .9);
+    }
+    
+    .card-body {
+        transition: ease .5s
+    }
+    
+    .card-body:hover {
+        background-color: rgba(0, 0, 0, .1)!important;
+    }
+    
+    .card img {
+        height: 15em
+    }
+    /***********************/
+    /*start footer style*/
+    
+    footer {
+        background-color: rgba(0, 150, 0, .05);
+    }
+    
+    footer a {
+        color: #000;
+        font-size: 20px;
+        font-family: Thasadith;
+        letter-spacing: 2px;
+        font-weight: bold;
+        transition: ease .5s;
+    }
+    
+    footer a:hover {
+        color: rgba(0, 0, 0, .9);
+        text-decoration: none;
+    }
+    
+    footer span {
+        color: #0c93b3
+    }
+    
+    footer .trade {
+        text-transform: capitalize;
+        font-family: Dubai;
+        font-size: 20px;
+        letter-spacing: 1px
+    }
+    /********************/
+    /*start media query style*/
+    
+    @media(max-width:576px) {
+        .home-cont-name,
+        .home-cont-position {
+            width: 100%;
+            -webkit-clip-path: unset;
+            clip-path: unset;
+        }
+        .home-cont-name {
+            top: 35%
+        }
+        .home-cont-position {
+            top: 65%
+        }
+        footer .social {
+            text-align: left!important;
+        }
+    }
+    
+    @media(max-width:768px) {
+        .portfolio-head p {
+            width: 50%!important
+        }
+        @media(max-width:991px) {
+            .skills-head {
+                padding-left: 0!important;
+                padding-right: 0!important
+            }
+            .navbar {
+                background-color: rgba(0, 0, 0, .9) !important;
+                color: #000!important;
+                transition: background-color 200ms linear;
+            }
+            nav ul {
+                text-align: center;
+                padding-top: 0px!important;
+                margin-right: 0!important;
+            }
+        }
+        /*************************/
